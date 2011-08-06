@@ -16,7 +16,7 @@
 	TreeNode		*parent;
 	NSMutableArray	*children;
 	NSString		*key;
-	NSString		*leafvalue;
+	// NSString		*leafvalue;
 }
 @property (nonatomic, retain) 	TreeNode		*parent;
 @property (nonatomic, retain) 	NSMutableArray	*children;

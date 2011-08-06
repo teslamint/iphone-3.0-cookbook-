@@ -12,7 +12,7 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import "TreeNode.h"
 
-@interface XMLParser : NSObject
+@interface XMLParser : NSObject<NSXMLParserDelegate>
 {
 	NSMutableArray		*stack;
 }
